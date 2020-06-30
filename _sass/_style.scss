@@ -1872,7 +1872,7 @@ ul.clear-list:first-child {
 
 .contact-type {
   width: 20px;
-  color: #c1c3c4;
+  color: #676a6c;
 }
 
 .blog {
@@ -1958,7 +1958,7 @@ ul.clear-list:first-child {
     border-bottom: 1px solid #333333;
   }
   &:hover {
-    background: #fbfbfb;
+    background: #333333;
   }
 }
 
@@ -1986,10 +1986,10 @@ ul.clear-list:first-child {
 }
 
 .vote-info {
-  color: #b4b6b8;
+  color: #333333;
   font-size: 12px;
   a {
-    color: #b4b6b8;
+    color: #1e1e1e;
     font-size: 12px;
     margin-right: 10px;
     &:hover {
@@ -2001,7 +2001,7 @@ ul.clear-list:first-child {
 .vote-icon {
   text-align: right;
   font-size: 38px;
-  color: #e8e9ea;
+  color: #333333;
   &.active {
     color: #23c6c8;
   }
@@ -2623,7 +2623,7 @@ body {
     padding: 20px 0;
   }
   .gray-section {
-    background: #f4f4f4;
+    background: #1e1e1e;
     margin-top: 60px;
   }
   .team-member {
