@@ -153,15 +153,15 @@ h3, h4, h5 {
 }
 
 .navbar-default .landing_link a {
-  background: #3385FF;
+  background: #4e8683;
   color: #fff;
   &:hover {
-    background: #3385FF !important;
+    background: #4e8683 !important;
     color: #fff;
   }
   span.label {
     background: #fff;
-    color: #3385FF;
+    color: #4e8683;
   }
 }
 
@@ -862,7 +862,7 @@ button.dim:active:before {
   transition: border-color .15s ease-in-out 0s, box-shadow .15s ease-in-out 0s;
   font-size: 14px;
   &:focus {
-    border-color: #3385FF !important;
+    border-color: #4e8683 !important;
   }
 }
 
@@ -1214,7 +1214,7 @@ label.error {
 }
 
 .slick-next:before, .slick-prev:before {
-  color: #3385FF !important;
+  color: #4e8683 !important;
 }
 
 body {
@@ -2385,7 +2385,7 @@ body {
     width: 60px;
     height: 1px;
     margin: 60px auto 0;
-    border-bottom: 2px solid #3385FF;
+    border-bottom: 2px solid #ff0000;
   }
   .navbar-wrapper {
     position: fixed;
@@ -2404,7 +2404,7 @@ body {
   }
   .navbar-default {
     &.navbar-scroll {
-      background-color: #fff;
+      background-color: #1e1e1e;
       border-color: #fff;
       padding: 15px 0;
     }
@@ -2494,7 +2494,7 @@ body {
   .navbar-fixed-top {
     border: none !important;
     &.navbar-scroll {
-      border-bottom: 1px solid #e7eaec !important;
+      border-bottom: 1px solid #1e1e1e !important;
     }
   }
   .navbar.navbar-scroll .navbar-brand {
