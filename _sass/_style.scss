@@ -51,7 +51,7 @@ h3, h4, h5 {
     color: #2fd2c9;
   }
   > li.active > a {
-    color: #1e1e1e000;
+    color: #1e1e1e;
   }
 }
 
@@ -393,20 +393,20 @@ button.dim {
     }
   }
   &:focus, &:hover {
-    background-color: #0073B1;
-    border-color: #0073B1;
+    background-color: #23c6c8;
+    border-color: #23c6c8;
     color: #1e1e1e;
   }
   &.active[disabled] {
-    background-color: #0073B1;
-    border-color: #0073B1;
+    background-color: #23c6c8;
+    border-color: #23c6c8;
   }
   &[disabled] {
-    background-color: #0073B1;
-    border-color: #0073B1;
+    background-color: #23c6c8;
+    border-color: #23c6c8;
     &:active, &:focus, &:hover {
-      background-color: #0073B1;
-      border-color: #0073B1;
+      background-color: #23c6c8;
+      border-color: #23c6c8;
     }
   }
 }
@@ -416,40 +416,40 @@ button.dim {
   border-color: #23c6c8;
   color: #1e1e1e;
   &.active {
-    background-color: #1a7bb9;
-    border-color: #1a7bb9;
+    background-color: #23c6c8;
+    border-color: #23c6c8;
     color: #1e1e1e;
     &:focus, &:hover {
-      background-color: #1a7bb9;
-      border-color: #1a7bb9;
+      background-color: #23c6c8;
+      border-color: #23c6c8;
       color: #1e1e1e;
     }
   }
   &:active {
-    background-color: #1a7bb9;
-    border-color: #1a7bb9;
+    background-color: #23c6c8;
+    border-color: #23c6c8;
     color: #1e1e1e;
     &:focus, &:hover {
-      background-color: #1a7bb9;
-      border-color: #1a7bb9;
+      background-color: #23c6c8;
+      border-color: #23c6c8;
       color: #1e1e1e;
     }
   }
   &:focus, &:hover {
-    background-color: #1a7bb9;
-    border-color: #1a7bb9;
+    background-color: #23c6c8;
+    border-color: #23c6c8;
     color: #1e1e1e;
   }
   &.active[disabled] {
-    background-color: #1f90d8;
-    border-color: #1f90d8;
+    background-color: #23c6c8;
+    border-color: #23c6c8;
   }
   &[disabled] {
-    background-color: #1f90d8;
-    border-color: #1f90d8;
+    background-color: #23c6c8;
+    border-color: #23c6c8;
     &:active, &:focus, &:hover {
-      background-color: #1f90d8;
-      border-color: #1f90d8;
+      background-color: #23c6c8;
+      border-color: #23c6c8;
     }
   }
 }
@@ -500,7 +500,7 @@ button.dim {
 .btn-default {
   color: inherit;
   background: #1e1e1e;
-  border: 1px solid #e7eaec;
+  border: 1px solid #333333;
 }
 
 .btn-link {
@@ -518,23 +518,23 @@ button.dim {
 .btn-default {
   &.active {
     color: inherit;
-    border: 1px solid #d2d2d2;
+    border: 1px solid #202020;
     &:focus, &:hover {
       color: inherit;
-      border: 1px solid #d2d2d2;
+      border: 1px solid #202020;
     }
   }
   &:active {
     color: inherit;
-    border: 1px solid #d2d2d2;
+    border: 1px solid #202020;
     &:focus, &:hover {
       color: inherit;
-      border: 1px solid #d2d2d2;
+      border: 1px solid #202020;
     }
   }
   &:focus, &:hover {
     color: inherit;
-    border: 1px solid #d2d2d2;
+    border: 1px solid #202020;
   }
   &.active[disabled] {
     color: #cacaca;
@@ -610,37 +610,37 @@ button.dim {
 .btn-white {
   color: inherit;
   background: #1e1e1e;
-  border: 1px solid #e7eaec;
+  border: 1px solid #333333;
   &.active {
     color: inherit;
-    border: 1px solid #d2d2d2;
+    border: 1px solid #202020;
     &:focus, &:hover {
       color: inherit;
-      border: 1px solid #d2d2d2;
+      border: 1px solid #202020;
     }
   }
   &:active {
     color: inherit;
-    border: 1px solid #d2d2d2;
+    border: 1px solid #202020;
     &:focus, &:hover {
       color: inherit;
-      border: 1px solid #d2d2d2;
+      border: 1px solid #202020;
     }
   }
   &:focus, &:hover {
     color: inherit;
-    border: 1px solid #d2d2d2;
+    border: 1px solid #202020;
   }
   &.active, &:active {
     background-image: none;
   }
   &.active[disabled] {
-    color: #cacaca;
+    color: #202020;
   }
   &[disabled] {
-    color: #cacaca;
+    color: #202020;
     &:active, &:focus, &:hover {
-      color: #cacaca;
+      color: #202020;
     }
   }
 }
@@ -704,9 +704,9 @@ button {
     }
   }
   &.btn-default.dim {
-    box-shadow: inset 0 0 0 #b3b3b3, 0 5px 0 0 #b3b3b3, 0 10px 5px #999;
+    box-shadow: inset 0 0 0 #333333, 0 5px 0 0 #333333, 0 10px 5px #999;
     &:active {
-      box-shadow: inset 0 0 0 #b3b3b3, 0 2px 0 0 #b3b3b3, 0 5px 3px #999;
+      box-shadow: inset 0 0 0 #333333, 0 2px 0 0 #333333, 0 5px 3px #999;
     }
   }
   &.btn-warning.dim {
@@ -738,7 +738,7 @@ button {
 }
 
 .label {
-  background-color: #d1dade;
+  background-color: #333333;
   color: #5e5e5e;
   font-family: 'Open Sans';
   text-shadow: none;
@@ -1038,7 +1038,7 @@ label.error {
 }
 
 #vertical-timeline.light-timeline:before {
-  background: #e7eaec;
+  background: #333333;
 }
 
 @media only screen and (min-width: 1170px) {
@@ -1088,7 +1088,7 @@ label.error {
   height: 40px;
   border-radius: 50%;
   font-size: 16px;
-  border: 3px solid #f1f1f1;
+  border: 3px solid #333333;
   i {
     display: block;
     width: 24px;
@@ -1311,18 +1311,18 @@ a {
 }
 
 .border-left-right {
-  border-left: 1px solid #e7eaec;
-  border-right: 1px solid #e7eaec;
+  border-left: 1px solid #333333;
+  border-right: 1px solid #333333;
 }
 
 .border-left {
-  border-left: 1px solid #e7eaec;
+  border-left: 1px solid #333333;
   border-right: none;
 }
 
 .border-right {
   border-left: none;
-  border-right: 1px solid #e7eaec;
+  border-right: 1px solid #333333;
 }
 
 .full-width {
@@ -1352,7 +1352,7 @@ img.circle-border {
 }
 
 code {
-  background-color: #F9F2F4;
+  background-color: #333333;
   border-radius: 4px;
   color: #ca4440;
   font-size: 90%;
@@ -1361,7 +1361,7 @@ code {
 
 .ibox-content, .ibox-title {
   background-color: #1e1e1e;
-  border-color: #e7eaec;
+  border-color: #333333;
   border-image: none;
   border-style: solid solid none;
 }
@@ -1655,7 +1655,7 @@ a.close-canvas-menu {
 }
 
 .contact-box {
-  border: 1px solid #e7eaec;
+  border: 1px solid #333333;
   padding: 20px;
   margin-bottom: 20px;
   > a {
@@ -1679,8 +1679,8 @@ a.close-canvas-menu {
 
 .timeline-item {
   .content, .date i {
-    border-left: 1px solid #e7eaec;
-    border-top: 1px solid #e7eaec;
+    border-left: 1px solid #333333;
+    border-top: 1px solid #333333;
   }
 }
 
@@ -1697,7 +1697,7 @@ ul.clear-list:first-child {
       padding: 5px;
       width: 30px;
       text-align: center;
-      border-bottom: 1px solid #e7eaec;
+      border-bottom: 1px solid #333333;
       background: #f8f8f8;
     }
     text-align: right;
@@ -1746,7 +1746,7 @@ ul.clear-list:first-child {
 }
 
 .file {
-  border: 1px solid #e7eaec;
+  border: 1px solid #333333;
   padding: 0;
   background-color: #1e1e1e;
   position: relative;
@@ -1785,7 +1785,7 @@ ul.clear-list:first-child {
   .file-name {
     padding: 10px;
     background-color: #f8f8f8;
-    border-top: 1px solid #e7eaec;
+    border-top: 1px solid #333333;
   }
 }
 
@@ -1805,7 +1805,7 @@ ul.clear-list:first-child {
   padding: 5px 10px;
   font-size: 11px;
   border-radius: 2px;
-  border: 1px solid #e7eaec;
+  border: 1px solid #333333;
   margin-bottom: 5px;
   a {
     color: inherit;
@@ -1824,19 +1824,19 @@ ul.clear-list:first-child {
 
 .mail-box {
   background-color: #1e1e1e;
-  border: 1px solid #e7eaec;
+  border: 1px solid #333333;
   border-top: 0;
   padding: 0;
   margin-bottom: 20px;
 }
 
 .mail-body, .mail-text {
-  border-top: 1px solid #e7eaec;
+  border-top: 1px solid #333333;
 }
 
 .mail-box-header {
   background-color: #1e1e1e;
-  border: 1px solid #e7eaec;
+  border: 1px solid #333333;
   border-bottom: 0;
   padding: 30px 20px 20px;
   h2 {
@@ -1902,11 +1902,11 @@ ul.clear-list:first-child {
 }
 
 .vote-item {
-  border-top: 1px solid #e7eaec;
+  border-top: 1px solid #333333;
 }
 
 .social-feed-box {
-  border: 1px solid #e7eaec;
+  border: 1px solid #333333;
   background: #1e1e1e;
   margin-bottom: 15px;
 }
@@ -1916,7 +1916,7 @@ ul.clear-list:first-child {
   border-bottom: none;
   &:last-child {
     margin-bottom: 0;
-    border-bottom: 1px solid #e7eaec;
+    border-bottom: 1px solid #333333;
   }
   p {
     font-size: 13px;
@@ -1955,7 +1955,7 @@ ul.clear-list:first-child {
   padding: 20px 25px;
   background: #1e1e1e;
   &:last-child {
-    border-bottom: 1px solid #e7eaec;
+    border-bottom: 1px solid #333333;
   }
   &:hover {
     background: #fbfbfb;
@@ -2476,7 +2476,7 @@ body {
   .navbar-wrapper .navbar.navbar-scroll {
     padding-top: 0;
     padding-bottom: 0;
-    border-bottom: 1px solid #e7eaec;
+    border-bottom: 1px solid #333333;
     border-radius: 0;
   }
   .nav > li {
@@ -2775,7 +2775,7 @@ body {
     .navbar-wrapper .navbar {
       padding-top: 0;
       padding-bottom: 5px;
-      border-bottom: 1px solid #e7eaec;
+      border-bottom: 1px solid #333333;
       border-radius: 0;
     }
     .nav > li > a {
