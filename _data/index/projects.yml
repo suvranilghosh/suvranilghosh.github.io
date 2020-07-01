@@ -13,7 +13,7 @@
   gh_user: TurboYums
   repo: TurboYums
   img: /static/assets/img/landing/TurboIcon.png
-  desc: Restaurant Automation App using ReactJS and NodeJS
+  desc: Restaurant Automation App for Android and iOS using ReactJS
 
 # - name: Google
 #   i18n: google
