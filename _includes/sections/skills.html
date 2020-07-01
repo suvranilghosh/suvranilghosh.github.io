@@ -16,12 +16,12 @@
             labels: "{{ site.data.index.skills.aspects }}".split(","),
             datasets: [{
                 label: "{{ site.data.index.skills.label }}",
-                backgroundColor: "rgba(179,181,198,0.2)",
-                borderColor: "#3385FF",
-                pointBackgroundColor: "#3385FF",
-                pointBorderColor: "#fff",
-                pointHoverBackgroundColor: "#3385FF",
-                pointHoverBorderColor: "#3385FF",
+                backgroundColor: "rgba(100,100,100,0.1)",
+                borderColor: "#23c6c8",
+                pointBackgroundColor: "#23c6c8",
+                pointBorderColor: "#202020",
+                pointHoverBackgroundColor: "#23c6c8",
+                pointHoverBorderColor: "#23c6c8",
                 data: [{{ site.data.index.skills.percentage }}]
                 }]
         };
@@ -31,9 +31,11 @@
             options: {
                 scale: {
                     responsive: true,
-                    ticks: {min: 0, max: 100},
-                    lineArc: false,
+                    ticks: {min: 0, max: 100, backdropColor: 'rgba(32, 32, 32, 0.8)'},
+                    lineArc: true,
                     pointLabels: {fontSize: 14},
+                    angleLines: {color: 'rgba(255,255, 255, 0.5)'}, 
+                    gridLines: {color: 'rgba(255, 255, 255, 0.2)', circular: false, display: true, drawOnChartArea: true, drawBorder: true}
                 },
                 legend: {display: false},
             }
