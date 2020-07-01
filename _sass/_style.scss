@@ -43,7 +43,7 @@ h3, h4, h5 {
 
 .nav {
   > li > a {
-    color: #f600ff;
+    color: #2fd2c9;
     font-weight: 600;
     padding: 14px 20px 14px 25px;
   }
@@ -81,7 +81,7 @@ h3, h4, h5 {
 }
 
 .navbar-default {
-  border-color: #2f4050;
+  border-color: #2fd2c9;
 }
 
 .navbar-top-links li {
@@ -227,14 +227,14 @@ body.canvas-menu .nav-header {
     a {
       &:focus, &:hover {
         background: #676a6c;
-        color: #4e8683;
+        color: #2fd2c9;
       }
     }
     &.active {
       background: #676a6c;
       border: none;
       > a {
-        color: #4e8683;
+        color: #2fd2c9;
       }
     }
   }
@@ -256,7 +256,7 @@ body.canvas-menu .nav-header {
 }
 
 .top-navigation .navbar-brand {
-  background: #4e8683;
+  background: #2fd2c9;
   color: #676a6c;
   padding: 15px 25px;
 }
@@ -305,7 +305,7 @@ body.canvas-menu .nav-header {
 }
 
 .navbar-toggle {
-  background-color: #4e8683;
+  background-color: #2fd2c9;
   color: #1e1e1e;
   padding: 6px 12px;
   font-size: 14px;
@@ -349,11 +349,11 @@ button.dim {
 }
 
 .btn-primary.btn-outline {
-  color: #4e8683;
+  color: #2fd2c9;
 }
 
 .btn-success.btn-outline {
-  color: #4e86836;
+  color: #2fd2c9;
 }
 
 .btn-info.btn-outline {
@@ -1484,7 +1484,7 @@ code {
 }
 
 .text-white {
-  color: #1e1e1e;
+  color: #2fd2c9;
 }
 
 .contact-box, .light-navbar .navbar.navbar-static-top {
