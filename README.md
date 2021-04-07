@@ -1,7 +1,7 @@
 # Portfolio Website 
-### Inspired by jarrekk [(https://github.com/jarrekk/Jalpc)
+###Inspired by [jarrekk!](https://github.com/jarrekk/Jalpc)
 
-![Blog](https://github.com/jarrekk/Jalpc/raw/master/readme_files/Jalpc.png)
+![Blog](https://github.com/suvranilghosh/suvranilghosh.github.io/blob/master/static/assets/img/thumbnail.png)
 
 - [3 steps to setup this theme at your website!](#3-steps-to-setup-this-theme-at-your-website)
 - [Features](#features)
