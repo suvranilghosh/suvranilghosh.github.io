@@ -2,6 +2,6 @@
 
 label: Ability
 id : cs
-aspects: C, C++, C#, Python, ReactJS, Computer Vision, Java, JavaScript, SQL, SystemVerilog HDL, HTML5, CSS, NodeJS, Unity3D, Git
-percentage: 90, 85, 80, 95, 80, 50, 85, 80, 55, 85, 70, 60, 80, 75, 80
+aspects: C, C++, C#, Python, CUDA, ReactJS, Computer Vision, Java, JavaScript, SQL, SystemVerilog HDL, HTML5, CSS, NodeJS, Unity3D, Git
+percentage: 90, 85, 80, 95, 75, 80, 50, 85, 80, 55, 85, 70, 60, 80, 75, 80
 
