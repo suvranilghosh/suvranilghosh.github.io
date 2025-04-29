@@ -1,30 +1,44 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Rutgers University
+    detail: swXtch.io
     i18n: company_a
   desc:
-    detail: I worked at Rutgers University Learning Centers as a Learning Assistant where I facilitated active learning in classrooms of 25 students
+    detail: Designed and developed frontend of React web application using mainly JavaScript and CSS. Improved and handled maintenance of GitHub CI/CD integration to make it 4x faster and 36% cheaper using self-hosted runners hence allowing for quicker development-to-production timeline.
     i18n: company_a_desc
   date:
-    detail: Sept. 2018 - May 2020
+    detail: Oct. 2021 - Present
     i18n: company_a_date
   job:
-    detail: Learning Assistant
+    detail: Software Engineer
     i18n: company_a_job
   icon: fa-plus-square
-  present: true
 
 - name:
     detail: Rutgers University
     i18n: company_b
   desc:
-    detail: I worked at Rutgers University for the EOF program as a one-on-one tutor in subject areas of Physics, Chemistry and Mathematics
+    detail: Collaborated with 25 students every session for 2 sessions per week to engage them in active learning and guiding them through learning creative and innovative problem-solving skills. Led initiatives for group work and provided technical guidance for Calculus 1 and 2, and Physics courses.
     i18n: company_b_desc
   date:
-    detail: Sept. 2017 - May 2019
+    detail: Sept. 2018 - May 2020
     i18n: company_b_date
   job:
-    detail: Multidisciplinary Tutor
+    detail: Learning Assistant
     i18n: company_b_job
+  icon: fa-plus-square
+  present: true
+
+- name:
+    detail: Rutgers University
+    i18n: company_c
+  desc:
+    detail: Tutored on-campus for the Education Opportunity Fund Program in STEM subject areas. Assited students in achieving 15% higher scores on average.
+    i18n: company_c_desc
+  date:
+    detail: Sept. 2017 - May 2019
+    i18n: company_c_date
+  job:
+    detail: Multidisciplinary Tutor
+    i18n: company_c_job
   icon: fa-plus-square
