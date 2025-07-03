@@ -1,9 +1,11 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: wxckedEye
+- name: wXckedEye
   i18n: we
   url: https://www.swxtch.io/copy-of-wxckedeye-network-monitoring
+  img: /static/assets/img/swxtch_logo.png
+  desc: React Web app that lets you setup, monitor and control your cloudSwXtch network
 
 - name: Train Ticket Scanner
   i18n: TTS
