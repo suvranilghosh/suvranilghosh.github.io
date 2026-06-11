@@ -1,7 +1,0 @@
-# skills section data
-
-label: Ability
-id : cs
-aspects: C, C++, C#, Python, CUDA, ReactJS, Computer Vision, Java, JavaScript, SQL, SystemVerilog HDL, HTML5, CSS, NodeJS, Unity3D, Git
-percentage: 90, 85, 60, 95, 75, 90, 50, 65, 85, 55, 85, 70, 90, 80, 75, 80
-
